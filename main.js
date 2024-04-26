@@ -1,3 +1,6 @@
+const { nowInSec, SkyWayAuthToken, SkyWayContext, SkyWayRoom, SkyWayStreamFactory, uuidV4 } = skyway_room;
+
+
 const token = new SkyWayAuthToken({
     jti: uuidV4(),
     iat: nowInSec(),
